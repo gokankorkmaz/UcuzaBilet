@@ -27,9 +27,7 @@ public class BasePage {
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.navigate().to(baseUrl);
-
     }
-
 
     @AfterTest
     public static void tearDown() throws InterruptedException {

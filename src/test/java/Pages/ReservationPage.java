@@ -11,7 +11,6 @@ public class ReservationPage extends BasePage {
 
     WebDriver driver = BasePage.driver;
 
-
     By fPName = By.cssSelector("input[name='name_1']");
     By fPSurname = By.cssSelector("input[name='surname_1']");
     By fpTckn = By.cssSelector("input[id='tb-tckn-1']");
@@ -53,8 +52,6 @@ public class ReservationPage extends BasePage {
         driver.findElement(fPSurname).sendKeys("Korkmaz");
         driver.findElement(fpbDate).sendKeys("11051988");
         driver.findElement(fpTckn).sendKeys("46726689716");
-
-
     }
 
     public void fillFormSecondPerson() {
@@ -63,7 +60,6 @@ public class ReservationPage extends BasePage {
         driver.findElement(spbDate).sendKeys("10061966");
         driver.findElement(spTckn).sendKeys("46729689652");
         driver.findElement(spgender).click();
-        ;
     }
 
     public void fillFormThirdPerson() {
@@ -72,7 +68,6 @@ public class ReservationPage extends BasePage {
         driver.findElement(tpbDate).sendKeys("09062020");
         driver.findElement(tpTckn).sendKeys("37307339410");
         driver.findElement(tpgender).click();
-
     }
 
 
@@ -80,7 +75,6 @@ public class ReservationPage extends BasePage {
         driver.findElement(contactMail).sendKeys("gokankorkmaz@gmail.com");
         driver.findElement(phoneNumber).sendKeys("5068001077");
         Thread.sleep(2000);
-
     }
 
 

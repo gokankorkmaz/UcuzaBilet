@@ -52,8 +52,6 @@ public class MainPage extends BasePage {
         //Gün
         dateday = driver.findElement(By.cssSelector(".ui-datepicker-group.ui-datepicker-group-last>.ui-datepicker-calendar>tbody>tr:nth-of-type(2)>td:nth-of-type(7)>.ui-state-default"));
         dateday.click();
-
-
     }
 
     public void selectPassengersAndSearch() throws InterruptedException {

@@ -28,8 +28,6 @@ public class RunTest extends BasePage {
         reservationPage.fillFormThirdPerson();
         reservationPage.fillContactInformation();
         reservationPage.fillCreditCardInformation();
-
-
     }
 
 
